@@ -53,9 +53,10 @@ pages:
     image: docker.km3net.de/base/python:3.6
     stage: doc
     script:
-        - cd doc && make clean && make html
-        - mv _build/html ../public/
-        - cd .. && mv reports/coverage public/coverage
+        - cd doc && make clean && cd ..
+        - make doc
+        - mv doc/_build/html public/
+        - mv reports/coverage public/coverage
     artifacts:
         paths:
             - public
