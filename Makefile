@@ -43,4 +43,4 @@ yapf:
 	yapf -i -r $(PKGNAME)
 	yapf -i setup.py
 
-.PHONY: install install-dev clean test test-cov test-loop flake8 pep8 docstyle lint dependencies yapf
+.PHONY: install install-dev doc clean test test-cov test-loop flake8 pep8 docstyle lint dependencies yapf
