@@ -6,7 +6,7 @@ stages:
   - doc
 
 before_script:
-    - make install
+    - make install-dev
 
 test-py2:
     image: docker.km3net.de/base/python:2

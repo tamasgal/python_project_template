@@ -6,6 +6,7 @@ install:
 	pip install .
 
 install-dev:
+	pip install -Ur requirements-dev.txt
 	pip install -e .
 
 doc:
@@ -38,6 +39,7 @@ lint:
 
 dependencies:
 	pip install -Ur requirements.txt
+	pip install -Ur requirements-dev.txt
 
 yapf:
 	yapf -i -r $(PKGNAME)
