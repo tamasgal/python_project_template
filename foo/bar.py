@@ -18,7 +18,7 @@ def whats_the_meaning_of_life(n_cores=23):
 
     You don't even have to ask the question, it will figure it out for you.
     Don't use more cores than available to mankind.
-    
+
     Parameters
     ----------
     n_cores: int [default: 23]
@@ -30,3 +30,17 @@ def whats_the_meaning_of_life(n_cores=23):
         The type of the expected answer is of course an integer.
     """
     return 42
+
+
+def calculate_mean(numbers):
+    """Calculates the mean of a list of numbers
+
+    Parameters
+    ----------
+    numbers: iterable[numbers]
+
+    Returns
+    -------
+    number
+    """
+    return sum(numbers) / len(numbers)
