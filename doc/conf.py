@@ -18,7 +18,7 @@ from datetime import date
 import sphinx_rtd_theme
 from pkg_resources import get_distribution
 
-import foo    # noqa
+import foo  # noqa
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -53,9 +53,7 @@ autoapi_options = [
     'members', 'undoc-members'
     # , 'private-members', 'special-members'
 ]
-autoapi_ignore = [
-    "*/tests/*", "*test_*.py", "*/doc/conf.py"
-]
+autoapi_ignore = ["*/tests/*", "*test_*.py", "*/doc/conf.py"]
 autoapi_include_summaries = True
 
 # Add any paths that contain templates here, relative to this directory.
@@ -216,10 +214,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (
-        'index', 'KM3Pipe.tex', u'KM3Pipe Documentation',
-        u'Tamás Gál and Moritz Lotze', 'manual'
-    ),
+    ('index', 'KM3Pipe.tex', u'KM3Pipe Documentation',
+     u'Tamás Gál and Moritz Lotze', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -246,10 +242,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(
-    'index', 'foo', u'Foo Documentation',
-    [u'Your Name'], 1
-)]
+man_pages = [('index', 'foo', u'Foo Documentation', [u'Your Name'], 1)]
 
 # If true, show URL addresses after external links.
 # man_show_urls = False
@@ -259,8 +252,7 @@ man_pages = [(
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-]
+texinfo_documents = []
 
 # Documents to append as an appendix to all manuals.
 # texinfo_appendices = []
