@@ -8,6 +8,10 @@ install:
 install-dev:
 	pip install -e .
 
+doc:
+	cd doc && make html
+	cd ..
+
 clean:
 	python setup.py clean --all
 
