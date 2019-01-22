@@ -10,6 +10,14 @@ with a new Python project:
 - ``doc/conf.py`` - the documentation is configured in this file
 - ``.gitlab-ci.yml`` - this file describes the stages and jobs you want to
   run on the KM3NeT continuous integration server
+- ``.coveragerc`` - contains a list of files to include or skip. Make sure
+  to update the package name to match yours
+
+Don't write me a mail, please create an issue
+(https://git.km3net.de/examples/python_project/issues) if you have any
+questions, feedback or feature request. Merge requests are welcome!
+
+**Tamás Gál**
 
 Features of this Template
 =========================
@@ -22,6 +30,7 @@ Features of this Template
 - Documentation infrastructure: ``cd doc && make html``
     - Docs: https://examples.pages.km3net.de/python_project
     - Code coverage: https://examples.pages.km3net.de/python_project/coverage/
+- Continuous Integration on the KM3NeT GitLab server
 
 Installing
 ----------
