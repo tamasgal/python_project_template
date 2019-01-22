@@ -32,6 +32,9 @@ questions, feedback or feature requests. Merge requests are welcome!
 Features of this Template
 -------------------------
 
+- Automatic versioning using Git tags. Do ``git tag -a vX.Y.Z`` and
+  push the tag with ``git push --tags``. It will include the version tag
+  and also the development status within the version string automatically
 - Package installation using ``pip install .`` (also via ``make install``)
 - Test Suite infrastructure included
     - ``make test`` will run all tests
