@@ -41,7 +41,6 @@ extensions = [
     'sphinx.ext.viewcode',
     'autoapi.extension',
     'numpydoc',
-    'sphinx_gallery.gen_gallery',
     'sphinxcontrib.programoutput',
 ]
 
@@ -274,22 +273,6 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 # texinfo_no_detailmenu = False
-
-# -- Options for Example Gallery ------------------------------------------
-sphinx_gallery_conf = {
-    # path to store the module using example template
-    'backreferences_dir': 'modules/generated',
-    'doc_module': ('foo', ),
-    'default_thumb_file': '_static/default_gallery_thumbnail.png',
-    'examples_dirs': ['../examples'],
-    'gallery_dirs': ['auto_examples'],
-    'reference_url': {
-        'foo': None,
-    },
-    'expected_failing_examples': [],
-    'abort_on_example_effor': False,
-    'show_memory': True,
-}
 
 # don't show the method summary twice
 numpydoc_show_class_members = False
