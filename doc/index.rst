@@ -13,7 +13,7 @@
     contribute
     changelog
 
-    Code Coverage <http://GIT_GROUP.pages.km3net.de/PROJECT_NAME/coverage>
-    Source (Git) <https://git.km3net.de/GIT_GROUP/PROJECT_NAME.git>
+    Code Coverage <https://examples.pages.km3net.de/python_project/coverage>
+    Source (Git) <https://git.km3net.de/examples/python_project>
 
 * :ref:`genindex`

@@ -11,6 +11,18 @@ with a new Python project:
 - ``.gitlab-ci.yml`` - this file describes the stages and jobs you want to
   run on the KM3NeT continuous integration server
 
+Features of this Template
+=========================
+
+- Package installation using ``pip install .`` (also via ``make install``)
+- Test Suite infrastructure included
+    - ``make test`` will run all tests
+    - ``make test-loop`` will run the tests and watch files for changes to rerun
+      them continuously
+- Documentation infrastructure: ``cd doc && make html``
+    - Docs: https://examples.pages.km3net.de/python_project
+    - Code coverage: https://examples.pages.km3net.de/python_project/coverage/
+
 Installing
 ----------
 
