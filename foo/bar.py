@@ -5,7 +5,6 @@
 The bar module.
 
 """
-from __future__ import absolute_import, print_function, division
 
 __author__ = "Your Name"
 __credits__ = ["The guy in your office", "Tom"]
