@@ -13,6 +13,10 @@ with a new Python project:
 - ``.coveragerc`` - contains a list of files to include or skip. Make sure
   to update the package name to match yours
 
+Note that the GitLab CI is using KM3NeT services (the GitLab runners and
+the KM3NeT Docker registry), so make sure you update the settings to match
+your environment.
+
 Don't write me a mail, please create an issue
 (https://git.km3net.de/examples/python_project/issues) if you have any
 questions, feedback or feature request. Merge requests are welcome!
