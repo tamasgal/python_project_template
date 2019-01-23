@@ -1,12 +1,13 @@
 #!usr/bin/env python
 # -*- coding: utf-8 -*-
 # Filename: bar.py
+from __future__ import division
 """
 The bar module.
 
 """
 
-__author__ = "Your Name"
+__author__ = "Jürgen"
 __credits__ = ["The guy in your office", "Tom"]
 __license__ = "MIT"
 __maintainer__ = "Your Buddy"

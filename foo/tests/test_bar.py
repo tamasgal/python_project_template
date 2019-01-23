@@ -8,7 +8,7 @@ from foo.bar import whats_the_meaning_of_life, calculate_mean
 __author__ = "Your Name"
 __credits__ = []
 __license__ = "MIT"
-__maintainer__ = "Your Name"
+__maintainer__ = "Jürgen"
 __email__ = "yname@km3net.de"
 
 
@@ -38,3 +38,6 @@ class TestCalculateMean(TestCase):
 
     def test_calculate_mean_returns_correct_value_for_negative_numbers(self):
         assert -3 == calculate_mean([-1, -2, -3, -4, -5])
+
+    def test_calculate_mean_of_some_other_numbers(self):
+        self.assertAlmostEqual(2.5, calculate_mean([1, 2, 3, 4]))
