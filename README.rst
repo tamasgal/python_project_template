@@ -1,8 +1,11 @@
 A Python Project Template
 =========================
 
-Fork this project and adjust the following files to your needs to get started
-with a new Python project:
+Fork this project by clicking on the ``Fork`` button and afterwards go to
+your project "settings/advanced" and click on "Remove fork relationship".
+
+Finally adjust the following files to your needs to get started with a
+new Python project:
 
 - ``requirements.txt`` - a list of Python packages needed for your software
 - ``setup.py`` - this includes meta data for your package and is required
