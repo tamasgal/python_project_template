@@ -1,8 +1,10 @@
 A Python Project Template
 =========================
 
-Fork this project by clicking on the ``Fork`` button and afterwards go to
-your project "settings/advanced" and click on "Remove fork relationship".
+Fork this project by clicking on the ``Fork`` button
+(https://git.km3net.de/examples/python_project/forks/new) and afterwards
+go to your project "settings/advanced" and click on
+"Remove fork relationship".
 
 Finally adjust the following files to your needs to get started with a
 new Python project:
