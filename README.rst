@@ -20,13 +20,13 @@ new Python project:
   documentation.
 - ``.gitlab-ci.yml`` - this file describes the stages and jobs you want to
   run on the KM3NeT continuous integration servers
-- ``.coveragerc`` - contains a list of files to include or skip. Make sure
-  to update the package name to match yours and exclude files which should
-  not be tracked
+- ``.coveragerc`` - contains a list of files to include or skip in the test
+  coverage reports. Make sure to update the package name to match yours and
+  exclude files which should not be tracked
 
 Please note that the GitLab CI is using KM3NeT services (the GitLab runners and
 the KM3NeT Docker registry), so make sure you update the settings to match
-your environment.
+your environment if you want to use another GitLab server.
 
 Don't write me a mail, please create an issue
 (https://git.km3net.de/examples/python_project/issues) if you have any
@@ -60,6 +60,10 @@ This Python package works out of the box. Explore it with with the following
 commands.
 
 Install it with::
+
+    pip install /path/to/the/project/folder
+
+or::
 
     make install
 
