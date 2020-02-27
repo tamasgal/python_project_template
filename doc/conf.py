@@ -72,10 +72,10 @@ master_doc = 'index'
 # The full version, including alpha/beta/rc tags.
 version = get_distribution('foo').version
 # The short X.Y version.
-short_version = '.'.join(release.split('.')[:2])
+short_version = '.'.join(version.split('.')[:2])
 
 # General information about the project.
-project = "Foo {}".format(version)
+project = "Foo {}".format(short_version)
 
 copyright = u'{0}, Your Name'.format(date.today().year)
 
