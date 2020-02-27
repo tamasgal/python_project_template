@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# KM3Pipe documentation build configuration file, created by
+# Documentation build configuration file, created by
 # sphinx-quickstart on Sat Oct  4 19:16:43 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -17,8 +17,6 @@ import os
 from datetime import date
 import sphinx_rtd_theme
 from pkg_resources import get_distribution
-
-import foo  # noqa
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -72,12 +70,12 @@ master_doc = 'index'
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 # The full version, including alpha/beta/rc tags.
-release = get_distribution('foo').version
+version = get_distribution('foo').version
 # The short X.Y version.
-version = '.'.join(release.split('.')[:2])
+short_version = '.'.join(release.split('.')[:2])
 
 # General information about the project.
-project = "Foo {}".format(foo.__version__)
+project = "Foo {}".format(version)
 
 copyright = u'{0}, Your Name'.format(date.today().year)
 
@@ -127,7 +125,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "KM3Pipe {}".format(foo.__version__)
+html_title = "Foo {}".format(version)
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 # html_short_title = 'Home'
@@ -195,7 +193,7 @@ html_sidebars = {
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'KM3Pipedoc'
+htmlhelp_basename = 'Foodoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -214,8 +212,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'KM3Pipe.tex', u'KM3Pipe Documentation',
-     u'Tamás Gál and Moritz Lotze', 'manual'),
+    ('index', 'Foo.tex', u'Foo Documentation',
+     u'Your Name', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
