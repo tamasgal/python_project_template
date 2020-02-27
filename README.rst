@@ -13,6 +13,7 @@ new Python project:
 - ``setup.py`` - this includes meta data for your package and is required
   for the ``pip install`` procedure. The most important things to change
   are listed at the top of the file.
+- ``pyproject.toml`` - the project meta
 - ``doc/conf.py`` - the documentation is configured in this file. Make sure
   to update the descriptions, title, ``import`` statements and so on.
   Add ``*.rst`` files inside the ``doc`` folder and include them in
